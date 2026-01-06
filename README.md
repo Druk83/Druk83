@@ -63,18 +63,6 @@
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-000000?style=for-the-badge&logo=ffmpeg)
 ![Qdrant](https://img.shields.io/badge/Qdrant-0FC3C3?style=for-the-badge)
 
- 
-
----
-
-## Статистика
-<!-- Social / compact badges (static fallbacks when API badges are down) -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=Druk83&theme=dark&no-frame=true)](https://github.com/Druk83) [![GitHub](https://img.shields.io/badge/GitHub-Druk83-181717?style=social&logo=github)](https://github.com/Druk83) [![Top Lang](https://img.shields.io/badge/Top%20Lang-Rust-orange?style=flat&logo=rust)](https://github.com/Druk83)
-
-<!-- Contributions heatmap (alternative to full stats) -->
-![contributions](https://ghchart.rshah.org/Druk83)
-
-*Badges auto-update — last checked: 2026-01-02. Some dynamic badge services (e.g., `github-readme-stats`) may be temporarily unavailable; we use static fallbacks to avoid broken images.*
 
 ---
 

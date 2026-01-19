@@ -5,13 +5,15 @@
 ---
 
 ## GitHub сводка (январь 2026)
-- `8` публичных репозиториев (Rust, Batchfile, Jupyter, JavaScript); профиль запущен ― 28.11.2023.
-- Свежие коммиты: **TrainingGround** (01.01.2026), **RRDCS** (06.12.2025), **micromap** fork (19.10.2025), **clip_rs** (16.10.2025), **summific** (12.10.2025).
+- `10` публичных репозиториев (Rust, Python, Batchfile, Jupyter, JavaScript); профиль запущен — 28.11.2023.
+- Свежие коммиты: **sdd-template** (19.01.2026), **arch-patterns** (19.01.2026), **TrainingGround** (01.01.2026), **RRDCS** (06.12.2025), **micromap** fork (19.10.2025), **clip_rs** (16.10.2025), **summific** (12.10.2025).
 - Фокус: терминальные quality-gates, оффлайн CLIP-инференс, Windows-утилиты подготовки кода и MCP-интеграции.
 
 ---
 
 ## Ключевые проекты
+- **sdd-template** (`Python`) — Шаблон для систем управления данными и конфигурацией, переиспользуемая структура для быстрого запуска проектов. <https://github.com/Druk83/sdd-template>
+- **arch-patterns** (`Multi`) — Коллекция архитектурных паттернов и best practices для проектирования scalable систем. <https://github.com/Druk83/arch-patterns>
 - **RRDCS** (`Rust/Docs`, main) ― Robot-Resistant Development Control System. Линейка fail-fast quality gates (покрытие 80%+, стилевые чекеры, ArcUnit, SAST) и tooling слой (CLI, REST API, IDE-плагины, git hooks) для работы без Copilot/LLM-зависимости. <https://github.com/Druk83/RRDCS>
 - **clip_rs v0.1.0** (`Rust`, ONNX + Candle) ― локальная переимплементация OpenAI CLIP с CPU inference. CLI `clip-cli`, Rust API, примеры, оффлайн-политика тестов и управление весами через `CLIP_WEIGHTS_DIR`. <https://github.com/Druk83/clip_rs>
 - **MASS** (`Rust`) ― backend для системы MASS (Microservices Automation & Scripting System): автоматическая генерация RPA‑микросервисов из текстовых описаний, веб‑интерфейс, Docker-интеграция и мониторинг (Prometheus/Grafana). <https://github.com/Druk83/mass>
@@ -80,14 +82,16 @@ I build **terminal-first AI tools and CLI agents**. Everything runs locally/offl
 ---
 
 ## GitHub digest (Jan 2026)
-- `8` public repositories (Rust, Batchfile, Jupyter, JavaScript); profile created on Nov 28, 2023.
-- Active repos: **TrainingGround** (01 Jan 2026), **RRDCS** (updated 06 Dec 2025), **micromap** fork (19 Oct 2025), **clip_rs** (16 Oct 2025), **summific** (12 Oct 2025).
+- `10` public repositories (Rust, Python, Batchfile, Jupyter, JavaScript); profile created on Nov 28, 2023.
+- Active repos: **sdd-template** (19 Jan 2026), **arch-patterns** (19 Jan 2026), **TrainingGround** (01 Jan 2026), **RRDCS** (updated 06 Dec 2025), **micromap** fork (19 Oct 2025), **clip_rs** (16 Oct 2025), **summific** (12 Oct 2025).
 - Focus areas: terminal quality gates, offline CLIP inference, Windows tooling for AI-ready code bundles.
 
 ---
 
 ## Key projects
-- **RRDCS** ― Robot-Resistant Development Control System with fail-fast gates (>=80 % coverage, style checks, ArcUnit, SAST) plus tooling layer (CLI, REST, IDE add-ons, git hooks). <https://github.com/Druk83/RRDCS>
+- **sdd-template** (`Python`) ― Template for data management and configuration systems, reusable structure for quick project bootstrap. <https://github.com/Druk83/sdd-template>
+- **arch-patterns** (`Multi`) ― Collection of architectural patterns and best practices for designing scalable systems. <https://github.com/Druk83/arch-patterns>
+- **RRDCS** ― Robot-Resistant Development Control System with fail-fast gates (>=80 % coverage, style checks, ArcUnit, SAST) plus tooling layer (CLI, REST, IDE add-ons, git hooks). <https://github.com/Druk83/RRDCS>
 - **clip_rs v0.1.0** ― Rust reimplementation of OpenAI CLIP (ONNX + Candle backends, CPU inference, `clip-cli`, offline weights/tests). <https://github.com/Druk83/clip_rs>
 - **Summific v0.2.0** ― Windows desktop tool that merges codebases into language-specific volumes, adds Explorer context menu entries, honors ignore lists, exports AI/LLM-ready artifacts with MCP support. <https://github.com/Druk83/summific>
 - **micromap fork** ― stack-only linear map for micro-sized datasets; keeps upstream benchmarks/docs in sync (yegor256/micromap). <https://github.com/Druk83/micromap>

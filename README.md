@@ -4,22 +4,23 @@
 
 ---
 
-## GitHub сводка (январь 2026)
-- `10` публичных репозиториев (Rust, Python, Batchfile, Jupyter, JavaScript); профиль запущен — 28.11.2023.
-- Свежие коммиты: **sdd-template** (19.01.2026), **arch-patterns** (19.01.2026), **TrainingGround** (01.01.2026), **RRDCS** (06.12.2025), **micromap** fork (19.10.2025), **clip_rs** (16.10.2025), **summific** (12.10.2025).
+## GitHub сводка (февраль 2026)
+- `11` публичных репозиториев (Rust, Python, Batchfile, Jupyter, JavaScript); профиль запущен — 28.11.2023.
+- Свежие коммиты: **sdd-template** (14.02.2026), **RRDCS** (3 недели назад), **dev-manifests** (месяц назад), **arch-patterns** (месяц назад), **TrainingGround** (01.01.2026).
 - Фокус: терминальные quality-gates, оффлайн CLIP-инференс, Windows-утилиты подготовки кода и MCP-интеграции.
 
 ---
 
 ## Ключевые проекты
 - **sdd-template** (`Python`) — Шаблон для систем управления данными и конфигурацией, переиспользуемая структура для быстрого запуска проектов. <https://github.com/Druk83/sdd-template>
+- **dev-manifests** (`Markdown`) — Коллекция правил поведения по областям разработки (Docker, TDD, зависимости, Git): для разработчиков и AI-агентов. <https://github.com/Druk83/dev-manifests>
 - **arch-patterns** (`Multi`) — Коллекция архитектурных паттернов и best practices для проектирования scalable систем. <https://github.com/Druk83/arch-patterns>
-- **RRDCS** (`Rust/Docs`, main) ― Robot-Resistant Development Control System. Линейка fail-fast quality gates (покрытие 80%+, стилевые чекеры, ArcUnit, SAST) и tooling слой (CLI, REST API, IDE-плагины, git hooks) для работы без Copilot/LLM-зависимости. <https://github.com/Druk83/RRDCS>
-- **clip_rs v0.1.0** (`Rust`, ONNX + Candle) ― локальная переимплементация OpenAI CLIP с CPU inference. CLI `clip-cli`, Rust API, примеры, оффлайн-политика тестов и управление весами через `CLIP_WEIGHTS_DIR`. <https://github.com/Druk83/clip_rs>
-- **MASS** (`Rust`) ― backend для системы MASS (Microservices Automation & Scripting System): автоматическая генерация RPA‑микросервисов из текстовых описаний, веб‑интерфейс, Docker-интеграция и мониторинг (Prometheus/Grafana). <https://github.com/Druk83/mass>
 - **TrainingGround** (`TypeScript/Rust/Python`) ― тренировочный полигон по русскому языку: PWA + Rust API + Python генератор, dev quickstart, мониторинг и инфраструктурные скрипты. <https://github.com/Druk83/TrainingGround>
-- **Summific v0.2.0** (`Batchfile`, Windows 11) ― десктоп-инструмент «собрать проект в читаемые тома». Интеграция в контекстное меню Explorer («Summific folder» / «Summific ignore list»), сортировка по языкам, фильтры, готовые бандлы для LLM и Model Context Protocol. <https://github.com/Druk83/summific>
+- **RRDCS** (`Rust/Docs`, main) ― Robot-Resistant Development Control System. Линейка fail-fast quality gates (покрытие 80%+, стилевые чекеры, ArcUnit, SAST) и tooling слой (CLI, REST API, IDE-плагины, git hooks) для работы без Copilot/LLM-зависимости. <https://github.com/Druk83/RRDCS>
+- **MASS** (`Rust`) ― backend для системы MASS (Microservices Automation & Scripting System): автоматическая генерация RPA‑микросервисов из текстовых описаний, веб‑интерфейс, Docker-интеграция и мониторинг (Prometheus/Grafana). <https://github.com/Druk83/mass>
 - **micromap fork** (`Rust`) ― стековый linear map без heap/хешей для микросетей (≤20 ключей). Держу актуальные бенчмарки, документацию и синк с upstream (yegor256/micromap). <https://github.com/Druk83/micromap>
+- **clip_rs v0.1.0** (`Rust`, ONNX + Candle) ― локальная переимплементация OpenAI CLIP с CPU inference. CLI `clip-cli`, Rust API, примеры, оффлайн-политика тестов и управление весами через `CLIP_WEIGHTS_DIR`. <https://github.com/Druk83/clip_rs>
+- **summific v0.2.0** (`Batchfile`, Windows 11) ― десктоп-инструмент «собрать проект в читаемые тома». Интеграция в контекстное меню Explorer («Summific folder» / «Summific ignore list»), сортировка по языкам, фильтры, готовые бандлы для LLM и Model Context Protocol. <https://github.com/Druk83/summific>
 - **NVSOR** (`Jupyter Notebook`) ― Neural Video Search with Object Recognition: пайплайн CLIP-эмбеддингов, FAISS-индекса и Google Colab (T4) для быстрого поиска по видеофрагментам. <https://github.com/Druk83/NVSOR>
 
 ---
@@ -81,22 +82,23 @@ I build **terminal-first AI tools and CLI agents**. Everything runs locally/offl
 
 ---
 
-## GitHub digest (Jan 2026)
-- `10` public repositories (Rust, Python, Batchfile, Jupyter, JavaScript); profile created on Nov 28, 2023.
-- Active repos: **sdd-template** (19 Jan 2026), **arch-patterns** (19 Jan 2026), **TrainingGround** (01 Jan 2026), **RRDCS** (updated 06 Dec 2025), **micromap** fork (19 Oct 2025), **clip_rs** (16 Oct 2025), **summific** (12 Oct 2025).
+## GitHub digest (Feb 2026)
+- `11` public repositories (Rust, Python, Batchfile, Jupyter, JavaScript); profile created on Nov 28, 2023.
+- Active repos: **sdd-template** (14 Feb 2026), **RRDCS** (3 weeks ago), **dev-manifests** (a month ago), **arch-patterns** (a month ago), **TrainingGround** (01 Jan 2026).
 - Focus areas: terminal quality gates, offline CLIP inference, Windows tooling for AI-ready code bundles.
 
 ---
 
 ## Key projects
 - **sdd-template** (`Python`) ― Template for data management and configuration systems, reusable structure for quick project bootstrap. <https://github.com/Druk83/sdd-template>
+- **dev-manifests** (`Markdown`) ― Rules & guidelines collection across dev domains (Docker, TDD, dependencies, Git) for both developers and AI agents. <https://github.com/Druk83/dev-manifests>
 - **arch-patterns** (`Multi`) ― Collection of architectural patterns and best practices for designing scalable systems. <https://github.com/Druk83/arch-patterns>
+- **TrainingGround** (`TypeScript/Rust/Python`) — language training playground for Russian (PWA + Rust API + Python generator), with developer quickstart and monitoring. <https://github.com/Druk83/TrainingGround>
 - **RRDCS** ― Robot-Resistant Development Control System with fail-fast gates (>=80 % coverage, style checks, ArcUnit, SAST) plus tooling layer (CLI, REST, IDE add-ons, git hooks). <https://github.com/Druk83/RRDCS>
+- **MASS Backend** (`Rust`) — backend for MASS (Microservices Automation & Scripting System): generates RPA microservices from text prompts, web UI, Docker integration and Prometheus/Grafana monitoring. <https://github.com/Druk83/mass>
+- **micromap fork** ― stack-only linear map for micro-sized datasets; keeps upstream benchmarks/docs in sync (yegor256/micromap). <https://github.com/Druk83/micromap>
 - **clip_rs v0.1.0** ― Rust reimplementation of OpenAI CLIP (ONNX + Candle backends, CPU inference, `clip-cli`, offline weights/tests). <https://github.com/Druk83/clip_rs>
 - **Summific v0.2.0** ― Windows desktop tool that merges codebases into language-specific volumes, adds Explorer context menu entries, honors ignore lists, exports AI/LLM-ready artifacts with MCP support. <https://github.com/Druk83/summific>
-- **micromap fork** ― stack-only linear map for micro-sized datasets; keeps upstream benchmarks/docs in sync (yegor256/micromap). <https://github.com/Druk83/micromap>
-- **MASS Backend** (`Rust`) — backend for MASS (Microservices Automation & Scripting System): generates RPA microservices from text prompts, web UI, Docker integration and Prometheus/Grafana monitoring. <https://github.com/Druk83/mass>
-- **TrainingGround** (`TypeScript/Rust/Python`) — language training playground for Russian (PWA + Rust API + Python generator), with developer quickstart and monitoring. <https://github.com/Druk83/TrainingGround>
 - **NVSOR** ― Neural Video Search with Object Recognition (CLIP embeddings + FAISS index + Google Colab workflow) for instant scene retrieval. <https://github.com/Druk83/NVSOR>
 
 ---

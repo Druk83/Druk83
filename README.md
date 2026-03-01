@@ -4,9 +4,9 @@
 
 ---
 
-## GitHub сводка (февраль 2026)
+## GitHub сводка (март 2026)
 - `11` публичных репозиториев (Rust, Python, Batchfile, Jupyter, JavaScript); профиль запущен — 28.11.2023.
-- Свежие коммиты: **sdd-template** (14.02.2026), **RRDCS** (3 недели назад), **dev-manifests** (месяц назад), **arch-patterns** (месяц назад), **TrainingGround** (01.01.2026).
+- Свежие коммиты: **sdd-template** (01.03.2026), **dev-manifests** (2 недели назад), **RRDCS** (25.01.2026), **arch-patterns** (19.01.2026), **TrainingGround** (08.01.2026).
 - Фокус: терминальные quality-gates, оффлайн CLIP-инференс, Windows-утилиты подготовки кода и MCP-интеграции.
 
 ---
@@ -82,9 +82,9 @@ I build **terminal-first AI tools and CLI agents**. Everything runs locally/offl
 
 ---
 
-## GitHub digest (Feb 2026)
+## GitHub digest (Mar 2026)
 - `11` public repositories (Rust, Python, Batchfile, Jupyter, JavaScript); profile created on Nov 28, 2023.
-- Active repos: **sdd-template** (14 Feb 2026), **RRDCS** (3 weeks ago), **dev-manifests** (a month ago), **arch-patterns** (a month ago), **TrainingGround** (01 Jan 2026).
+- Active repos: **sdd-template** (01 Mar 2026), **dev-manifests** (2 weeks ago), **RRDCS** (25 Jan 2026), **arch-patterns** (19 Jan 2026), **TrainingGround** (08 Jan 2026).
 - Focus areas: terminal quality gates, offline CLIP inference, Windows tooling for AI-ready code bundles.
 
 ---

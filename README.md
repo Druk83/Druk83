@@ -1,71 +1,65 @@
-# Привет! Я Druk
+﻿# Привет! Я Druk
 
-Разрабатываю **terminal-first AI-инструменты и CLI-агентов**. Люблю проекты, где всё работает локально, оффлайн и воспроизводимо: два режима (автономный агент и прямое управление из терминала), строгая телеметрия и минимум «магии».
+Развиваю **Spec-Driven Documentation (SDD)** и docs-as-code в репозиториях, а также делаю terminal-first/offline инструменты: quality gates, CLIP-инференс и утилиты подготовки кода для AI-процессов.
+
+## С чего начать
+- **RRDCS** — fail-fast quality gates + tooling-слой (CLI/REST/IDE/git hooks). <https://github.com/Druk83/RRDCS>
+- **sdd-template** — SDD-фреймворк для разработки технической документации в репозитории. <https://github.com/Druk83/sdd-template>
+- **dev-manifests** — набор практических правил для разработчиков и AI-агентов. <https://github.com/Druk83/dev-manifests>
 
 ---
 
-## GitHub сводка (март 2026)
-- `11` публичных репозиториев (Rust, Python, Batchfile, Jupyter, JavaScript); профиль запущен — 28.11.2023.
-- Свежие коммиты: **sdd-template** (01.03.2026), **dev-manifests** (2 недели назад), **RRDCS** (25.01.2026), **arch-patterns** (19.01.2026), **TrainingGround** (08.01.2026).
-- Фокус: терминальные quality-gates, оффлайн CLIP-инференс, Windows-утилиты подготовки кода и MCP-интеграции.
+## Фокус
+- Terminal quality gates и инженерная дисциплина в CI/CLI.
+- Оффлайн ML/CLIP-инференс и воспроизводимые пайплайны.
+- Windows-утилиты и MCP-ready подготовка кода для AI-процессов.
 
 ---
 
 ## Ключевые проекты
-- **sdd-template** (`Python`) — Шаблон для систем управления данными и конфигурацией, переиспользуемая структура для быстрого запуска проектов. <https://github.com/Druk83/sdd-template>
-- **dev-manifests** (`Markdown`) — Коллекция правил поведения по областям разработки (Docker, TDD, зависимости, Git): для разработчиков и AI-агентов. <https://github.com/Druk83/dev-manifests>
-- **arch-patterns** (`Multi`) — Коллекция архитектурных паттернов и best practices для проектирования scalable систем. <https://github.com/Druk83/arch-patterns>
-- **TrainingGround** (`TypeScript/Rust/Python`) ― тренировочный полигон по русскому языку: PWA + Rust API + Python генератор, dev quickstart, мониторинг и инфраструктурные скрипты. <https://github.com/Druk83/TrainingGround>
-- **RRDCS** (`Rust/Docs`, main) ― Robot-Resistant Development Control System. Линейка fail-fast quality gates (покрытие 80%+, стилевые чекеры, ArcUnit, SAST) и tooling слой (CLI, REST API, IDE-плагины, git hooks) для работы без Copilot/LLM-зависимости. <https://github.com/Druk83/RRDCS>
-- **MASS** (`Rust`) ― backend для системы MASS (Microservices Automation & Scripting System): автоматическая генерация RPA‑микросервисов из текстовых описаний, веб‑интерфейс, Docker-интеграция и мониторинг (Prometheus/Grafana). <https://github.com/Druk83/mass>
-- **micromap fork** (`Rust`) ― стековый linear map без heap/хешей для микросетей (≤20 ключей). Держу актуальные бенчмарки, документацию и синк с upstream (yegor256/micromap). <https://github.com/Druk83/micromap>
-- **clip_rs v0.1.0** (`Rust`, ONNX + Candle) ― локальная переимплементация OpenAI CLIP с CPU inference. CLI `clip-cli`, Rust API, примеры, оффлайн-политика тестов и управление весами через `CLIP_WEIGHTS_DIR`. <https://github.com/Druk83/clip_rs>
-- **summific v0.2.0** (`Batchfile`, Windows 11) ― десктоп-инструмент «собрать проект в читаемые тома». Интеграция в контекстное меню Explorer («Summific folder» / «Summific ignore list»), сортировка по языкам, фильтры, готовые бандлы для LLM и Model Context Protocol. <https://github.com/Druk83/summific>
-- **NVSOR** (`Jupyter Notebook`) ― Neural Video Search with Object Recognition: пайплайн CLIP-эмбеддингов, FAISS-индекса и Google Colab (T4) для быстрого поиска по видеофрагментам. <https://github.com/Druk83/NVSOR>
+- **RRDCS** (`Rust/Docs`) — контроль качества разработки без LLM-зависимости, с акцентом на fail-fast проверки и прозрачную интеграцию.
+- **sdd-template** (`Python`) — фреймворк и шаблоны для технической документации (SDD, этапность, трассируемость, AI-assisted docs).
+- **dev-manifests** (`Markdown`) — прикладные инженерные манифесты (Docker, TDD, зависимости, Git).
+- **clip_rs** (`Rust`, ONNX + Candle) — локальная реализация CLIP с CPU inference, CLI и API.
+- **summific** (`Batchfile`, Windows 11) — упаковка кодовой базы в читаемые AI/LLM-ready тома.
 
----
+<details>
+<summary>Ещё проекты</summary>
 
-## Формат и инструменты
-- **Terminal-first AI Agents** ― stateless/stateful режимы, конфигурация через `.env`/YAML, запуск из CLI/cron/CI.
-- **Direct control** ― ручные CLI-команды без прослойки «агент»; всё скриптуется и повторяется.
-- **AI-инструменты для кода** ― минификация, диффы, статический анализ, эмбеддинги и автономные пайплайны.
-- **OSS-реинжиниринг и исследования** ― переписываю libs (CLIP → Rust, micromap), веду README/ADR, пишу статьи.
+- **arch-patterns** (`Multi`) — архитектурные паттерны и best practices для масштабируемых систем.
+- **TrainingGround** (`TypeScript/Rust/Python`) — языковой тренировочный полигон (PWA + Rust API + Python generator).
+- **MASS** (`Rust`) — backend для автоматической генерации RPA-микросервисов.
+- **micromap fork** (`Rust`) — поддержка форка stack-only linear map и синк с upstream.
+- **NVSOR** (`Jupyter`) — video search pipeline на CLIP embeddings + FAISS.
+
+</details>
 
 ---
 
 ## Публикации
-- [Минификация кода и LLM: миф или польза?](https://habr.com/ru/articles/931508/)
-- [Микросервисы и авто-масштабирование: путь к динамическим RPA-платформам](https://habr.com/ru/articles/928918/)
+- [SDD (Spec-Driven Documentation) – фреймворк для разработки технической документации в репозитории](https://habr.com/ru/articles/996526/)
+- [Минификация кода для повышения эффективности LLM: влияние на лингвистику, генерацию и анализ программ](https://habr.com/ru/articles/931508/)
+- [Microservice Auto Scaling System для RPA: путь к динамической фабрике сервисов](https://habr.com/ru/articles/928918/)
 
 ---
 
 ## Принципы
-- **CLI-first** ― весь функционал доступен из терминала, GUI опционален.
-- **Deterministic & Reproducible** ― фиксированные версии, кеши, режим offline.
-- **Observability** ― структурные логи (`key=value`, `p95_ms`, `rss_mb`), `--debug`, понятные метрики.
-- **Secure by default** ― локальная обработка, политика весов/моделей, минимум телеметрии.
+- **CLI-first** — GUI опционален, автоматизация обязательна.
+- **Deterministic & reproducible** — фиксированные версии, кеши, offline-first.
+- **Observability** — структурные логи (`key=value`, `p95_ms`, `rss_mb`) и `--debug`.
+- **Secure by default** — локальная обработка и строгая политика моделей/весов.
 
 ---
 
 ## Стек
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
 ![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
 ![ONNX](https://img.shields.io/badge/ONNX-000000?style=for-the-badge&logo=onnx)
 ![FAISS](https://img.shields.io/badge/FAISS-262626?style=for-the-badge)
-![Postgres](https://img.shields.io/badge/Postgres-316192?style=for-the-badge&logo=postgresql)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-000000?style=for-the-badge&logo=ffmpeg)
 ![Qdrant](https://img.shields.io/badge/Qdrant-0FC3C3?style=for-the-badge)
-
 
 ---
 
@@ -78,50 +72,35 @@
 
 ## Hi, I'm Druk
 
-I build **terminal-first AI tools and CLI agents**. Everything runs locally/offline, supports both autonomous agent mode and direct keyboard control, and ships with reproducible telemetry.
+I focus on **Spec-Driven Documentation (SDD)** and docs-as-code workflows, plus terminal-first/offline tooling: quality gates, CLIP inference, and AI-ready code packaging.
+
+## Start here
+- **RRDCS** — fail-fast quality gates + CLI/REST/IDE/git-hooks tooling. <https://github.com/Druk83/RRDCS>
+- **sdd-template** — SDD framework for repository technical documentation. <https://github.com/Druk83/sdd-template>
+- **dev-manifests** — practical development rules for engineers and AI agents. <https://github.com/Druk83/dev-manifests>
 
 ---
 
-## GitHub digest (Mar 2026)
-- `11` public repositories (Rust, Python, Batchfile, Jupyter, JavaScript); profile created on Nov 28, 2023.
-- Active repos: **sdd-template** (01 Mar 2026), **dev-manifests** (2 weeks ago), **RRDCS** (25 Jan 2026), **arch-patterns** (19 Jan 2026), **TrainingGround** (08 Jan 2026).
-- Focus areas: terminal quality gates, offline CLIP inference, Windows tooling for AI-ready code bundles.
+## Focus
+- Terminal quality gates and disciplined CI/CLI workflows.
+- Offline ML/CLIP inference with reproducible pipelines.
+- Windows tooling and MCP-ready code packaging.
 
 ---
 
 ## Key projects
-- **sdd-template** (`Python`) ― Template for data management and configuration systems, reusable structure for quick project bootstrap. <https://github.com/Druk83/sdd-template>
-- **dev-manifests** (`Markdown`) ― Rules & guidelines collection across dev domains (Docker, TDD, dependencies, Git) for both developers and AI agents. <https://github.com/Druk83/dev-manifests>
-- **arch-patterns** (`Multi`) ― Collection of architectural patterns and best practices for designing scalable systems. <https://github.com/Druk83/arch-patterns>
-- **TrainingGround** (`TypeScript/Rust/Python`) — language training playground for Russian (PWA + Rust API + Python generator), with developer quickstart and monitoring. <https://github.com/Druk83/TrainingGround>
-- **RRDCS** ― Robot-Resistant Development Control System with fail-fast gates (>=80 % coverage, style checks, ArcUnit, SAST) plus tooling layer (CLI, REST, IDE add-ons, git hooks). <https://github.com/Druk83/RRDCS>
-- **MASS Backend** (`Rust`) — backend for MASS (Microservices Automation & Scripting System): generates RPA microservices from text prompts, web UI, Docker integration and Prometheus/Grafana monitoring. <https://github.com/Druk83/mass>
-- **micromap fork** ― stack-only linear map for micro-sized datasets; keeps upstream benchmarks/docs in sync (yegor256/micromap). <https://github.com/Druk83/micromap>
-- **clip_rs v0.1.0** ― Rust reimplementation of OpenAI CLIP (ONNX + Candle backends, CPU inference, `clip-cli`, offline weights/tests). <https://github.com/Druk83/clip_rs>
-- **Summific v0.2.0** ― Windows desktop tool that merges codebases into language-specific volumes, adds Explorer context menu entries, honors ignore lists, exports AI/LLM-ready artifacts with MCP support. <https://github.com/Druk83/summific>
-- **NVSOR** ― Neural Video Search with Object Recognition (CLIP embeddings + FAISS index + Google Colab workflow) for instant scene retrieval. <https://github.com/Druk83/NVSOR>
-
----
-
-## Workflow
-- **Terminal-first AI agents** with `.env`/YAML config, stateless/stateful modes, cron/CI friendly.
-- **Direct control** via scripts and CLI without extra agent layers for fast one-off runs.
-- **AI code tooling** for minification, diffs, static checks, embeddings, autonomous pipelines.
-- **OSS rewrites & research** across CLIP, micromap, and supporting docs/ADRs.
+- **RRDCS** (`Rust/Docs`) — quality control system for development pipelines without LLM dependency.
+- **clip_rs** (`Rust`, ONNX + Candle) — local OpenAI CLIP reimplementation with CPU inference, CLI and API.
+- **summific** (`Batchfile`, Windows 11) — exports codebases into readable AI/LLM-ready volumes.
+- **TrainingGround** (`TypeScript/Rust/Python`) — language training playground (PWA + Rust API + Python generator).
+- **arch-patterns** (`Multi`) — scalable architecture patterns and practical best practices.
 
 ---
 
 ## Publications
-- [Code Minification and LLMs: Myth or Benefit?](https://habr.com/ru/articles/931508/)
-- [Microservices and Auto-scaling: Path to Dynamic RPA Platforms](https://habr.com/ru/articles/928918/)
-
----
-
-## Principles
-- **CLI-first**, optional GUI.
-- **Deterministic & reproducible** builds, caches, offline mode.
-- **Observability** with structured logs (`key=value`, `p95_ms`, `rss_mb`) and `--debug`.
-- **Secure by default** ― local processing plus tight model/weights policy.
+- [SDD (Spec-Driven Documentation) – framework for repository technical documentation](https://habr.com/ru/articles/996526/)
+- [Code minification for improving LLM efficiency: impact on linguistics, generation and code analysis](https://habr.com/ru/articles/931508/)
+- [Microservice Auto Scaling System for RPA: path to a dynamic service factory](https://habr.com/ru/articles/928918/)
 
 ---
 
@@ -130,5 +109,3 @@ I build **terminal-first AI tools and CLI agents**. Everything runs locally/offl
 - Telegram: [@druk83](https://t.me/druk83)
 
 </details>
-
----

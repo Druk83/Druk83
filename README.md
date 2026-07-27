@@ -1,36 +1,30 @@
 ﻿# Привет! Я Druk
 
-Развиваю **Spec-Driven Documentation (SDD)** и docs-as-code в репозиториях, а также делаю terminal-first/offline инструменты: quality gates, CLIP-инференс и утилиты подготовки кода для AI-процессов.
+Развиваю **SDD (Spec-Driven Documentation — разработку технической документации по формализованным этапам)** и docs-as-code — подход, при котором документация живёт в репозитории и проходит ревью как код. Создаю terminal-first и локальные инструменты для анализа и упаковки кодовых баз, а также AI-ready рабочих процессов.
 
 ## С чего начать
-- **RRDCS** — fail-fast quality gates + tooling-слой (CLI/REST/IDE/git hooks). <https://github.com/Druk83/RRDCS>
-- **sdd-template** — SDD-фреймворк для разработки технической документации в репозитории. <https://github.com/Druk83/sdd-template>
+- **sdd-template** — набор шаблонов и последовательность этапов для разработки технической документации в репозитории. <https://github.com/Druk83/sdd-template>
 - **dev-manifests** — набор практических правил для разработчиков и AI-агентов. <https://github.com/Druk83/dev-manifests>
+- **summific** — Windows-инструмент, который объединяет исходные файлы в структурированные текстовые документы для анализа, документации и работы с LLM. <https://github.com/Druk83/summific>
 
 ---
 
 ## Фокус
-- Terminal quality gates и инженерная дисциплина в CI/CLI.
-- Оффлайн ML/CLIP-инференс и воспроизводимые пайплайны.
-- Windows-утилиты и MCP-ready подготовка кода для AI-процессов.
+- SDD, docs-as-code и репозиторные шаблоны.
+- Практические инженерные манифесты и стандарты работы в репозитории.
+- Windows-утилиты, анализ кодовых баз и AI-ready рабочие процессы.
 
 ---
 
 ## Ключевые проекты
-- **RRDCS** (`Rust/Docs`) — контроль качества разработки без LLM-зависимости, с акцентом на fail-fast проверки и прозрачную интеграцию.
-- **sdd-template** (`Python`) — фреймворк и шаблоны для технической документации (SDD, этапность, трассируемость, AI-assisted docs).
+- **sdd-template** (`Python`) — шаблоны и процесс для технической документации (SDD, этапность, трассируемость, AI-assisted docs).
 - **dev-manifests** (`Markdown`) — прикладные инженерные манифесты (Docker, TDD, зависимости, Git).
-- **clip_rs** (`Rust`, ONNX + Candle) — локальная реализация CLIP с CPU inference, CLI и API.
-- **summific** (`Batchfile`, Windows 11) — упаковка кодовой базы в читаемые AI/LLM-ready тома.
+- **summific** (`Batchfile`, Windows 10/11) — объединение исходных файлов в структурированные AI/LLM-ready документы.
 
 <details>
 <summary>Ещё проекты</summary>
 
 - **arch-patterns** (`Multi`) — архитектурные паттерны и best practices для масштабируемых систем.
-- **TrainingGround** (`TypeScript/Rust/Python`) — языковой тренировочный полигон (PWA + Rust API + Python generator).
-- **MASS** (`Rust`) — backend для автоматической генерации RPA-микросервисов.
-- **micromap fork** (`Rust`) — поддержка форка stack-only linear map и синк с upstream.
-- **NVSOR** (`Jupyter`) — video search pipeline на CLIP embeddings + FAISS.
 
 </details>
 
@@ -45,9 +39,9 @@
 
 ## Принципы
 - **CLI-first** — GUI опционален, автоматизация обязательна.
-- **Deterministic & reproducible** — фиксированные версии, кеши, offline-first.
-- **Observability** — структурные логи (`key=value`, `p95_ms`, `rss_mb`) и `--debug`.
-- **Secure by default** — локальная обработка и строгая политика моделей/весов.
+- **Reproducible** — фиксированные версии и кеши там, где это применимо.
+- **Observability** — структурированные логи и диагностический режим там, где они предусмотрены инструментом.
+- **Secure by default** — локальная обработка и явное управление зависимостями.
 
 ---
 
@@ -57,9 +51,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
 ![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell)
-![ONNX](https://img.shields.io/badge/ONNX-000000?style=for-the-badge&logo=onnx)
-![FAISS](https://img.shields.io/badge/FAISS-262626?style=for-the-badge)
-![Qdrant](https://img.shields.io/badge/Qdrant-0FC3C3?style=for-the-badge)
 
 ---
 
@@ -72,28 +63,33 @@
 
 ## Hi, I'm Druk
 
-I focus on **Spec-Driven Documentation (SDD)** and docs-as-code workflows, plus terminal-first/offline tooling: quality gates, CLIP inference, and AI-ready code packaging.
+I work on **SDD (Spec-Driven Documentation)**—a structured, staged approach to technical documentation—and docs-as-code workflows, where documentation lives in the repository and is reviewed like code. I also create terminal-first and local tools for codebase analysis, packaging, and AI-ready workflows.
 
 ## Start here
-- **RRDCS** — fail-fast quality gates + CLI/REST/IDE/git-hooks tooling. <https://github.com/Druk83/RRDCS>
-- **sdd-template** — SDD framework for repository technical documentation. <https://github.com/Druk83/sdd-template>
+- **sdd-template** — templates and a staged workflow for repository technical documentation. <https://github.com/Druk83/sdd-template>
 - **dev-manifests** — practical development rules for engineers and AI agents. <https://github.com/Druk83/dev-manifests>
+- **summific** — a Windows tool that combines source files into structured text documents for analysis, documentation, and LLM workflows. <https://github.com/Druk83/summific>
 
 ---
 
 ## Focus
-- Terminal quality gates and disciplined CI/CLI workflows.
-- Offline ML/CLIP inference with reproducible pipelines.
-- Windows tooling and MCP-ready code packaging.
+- SDD, docs-as-code, and repository templates.
+- Practical engineering manifests and repository workflow standards.
+- Windows tooling, codebase analysis, and AI-ready workflows.
 
 ---
 
 ## Key projects
-- **RRDCS** (`Rust/Docs`) — quality control system for development pipelines without LLM dependency.
-- **clip_rs** (`Rust`, ONNX + Candle) — local OpenAI CLIP reimplementation with CPU inference, CLI and API.
-- **summific** (`Batchfile`, Windows 11) — exports codebases into readable AI/LLM-ready volumes.
-- **TrainingGround** (`TypeScript/Rust/Python`) — language training playground (PWA + Rust API + Python generator).
+- **sdd-template** (`Python`) — templates and a staged workflow for technical documentation (SDD, traceability, AI-assisted docs).
+- **dev-manifests** (`Markdown`) — practical engineering manifests (Docker, TDD, dependencies, Git).
+- **summific** (`Batchfile`, Windows 10/11) — combines source files into structured AI/LLM-ready documents.
+
+<details>
+<summary>More projects</summary>
+
 - **arch-patterns** (`Multi`) — scalable architecture patterns and practical best practices.
+
+</details>
 
 ---
 
@@ -101,6 +97,23 @@ I focus on **Spec-Driven Documentation (SDD)** and docs-as-code workflows, plus 
 - [SDD (Spec-Driven Documentation) – framework for repository technical documentation](https://habr.com/ru/articles/996526/)
 - [Code minification for improving LLM efficiency: impact on linguistics, generation and code analysis](https://habr.com/ru/articles/931508/)
 - [Microservice Auto Scaling System for RPA: path to a dynamic service factory](https://habr.com/ru/articles/928918/)
+
+---
+
+## Principles
+- **CLI-first** — GUI is optional; automation is essential.
+- **Reproducible** — fixed versions and caches where applicable.
+- **Observability** — structured logs and diagnostic modes where supported by the tool.
+- **Secure by default** — local processing and explicit dependency management.
+
+---
+
+## Technologies
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge&logo=powershell)
 
 ---
 

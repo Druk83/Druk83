@@ -30,13 +30,6 @@
 
 ---
 
-## Публикации
-- [SDD (Spec-Driven Documentation) – фреймворк для разработки технической документации в репозитории](https://habr.com/ru/articles/996526/)
-- [Минификация кода для повышения эффективности LLM: влияние на лингвистику, генерацию и анализ программ](https://habr.com/ru/articles/931508/)
-- [Microservice Auto Scaling System для RPA: путь к динамической фабрике сервисов](https://habr.com/ru/articles/928918/)
-
----
-
 ## Принципы
 - **CLI-first** — GUI опционален, автоматизация обязательна.
 - **Reproducible** — фиксированные версии и кеши там, где это применимо.
@@ -90,13 +83,6 @@ I work on **SDD (Spec-Driven Documentation)**—a structured, staged approach to
 - **arch-patterns** (`Multi`) — scalable architecture patterns and practical best practices.
 
 </details>
-
----
-
-## Publications
-- [SDD (Spec-Driven Documentation) – framework for repository technical documentation](https://habr.com/ru/articles/996526/)
-- [Code minification for improving LLM efficiency: impact on linguistics, generation and code analysis](https://habr.com/ru/articles/931508/)
-- [Microservice Auto Scaling System for RPA: path to a dynamic service factory](https://habr.com/ru/articles/928918/)
 
 ---
 
